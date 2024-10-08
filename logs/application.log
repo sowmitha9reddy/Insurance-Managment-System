@@ -1,0 +1,21 @@
+2024-10-08 12:05:16 [main] INFO  c.I.I.S.InsuranceSystemApplicationTests - Starting InsuranceSystemApplicationTests using Java 22.0.1 with PID 15736 (started by Reddemma in C:\Users\Reddemma\Downloads\Insurance System\Insurance-System)
+  2024-10-08 12:05:16 [main] INFO  c.I.I.S.InsuranceSystemApplicationTests - The following 2 profiles are active: "test", "prod"
+  2024-10-08 12:05:23 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+  2024-10-08 12:05:24 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 234 ms. Found 5 JPA repository interfaces.
+  2024-10-08 12:05:27 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+  2024-10-08 12:05:27 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+  2024-10-08 12:05:27 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+  2024-10-08 12:05:29 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+  2024-10-08 12:05:29 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+  2024-10-08 12:05:36 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@55e42684
+  2024-10-08 12:05:36 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+  2024-10-08 12:05:37 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+  2024-10-08 12:05:41 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+  2024-10-08 12:05:44 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+  2024-10-08 12:05:47 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+  2024-10-08 12:05:49 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/Insurance?createDatabaseIfNotExist=true'
+  2024-10-08 12:05:49 [main] INFO  c.I.I.S.InsuranceSystemApplicationTests - Started InsuranceSystemApplicationTests in 35.236 seconds (process running for 44.511)
+  2024-10-08 12:05:52 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+  2024-10-08 12:05:52 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+  2024-10-08 12:05:52 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+  
